@@ -72,3 +72,5 @@ pip install -r requirements.txt
 - **9.3** Objective: PPO-style clipped policy loss, but *policy-only* (no value loss).
 - **9.4** KL regularization: explicit KL(π‖π_ref) penalty term added directly to the loss (not folded into the advantage).
 - **9.5** Training loop differences: sample `k` completions per prompt → compute rewards → subtract per-prompt mean → apply GRPO loss with KL penalty.
+
+[![Watch on YouTube](https://img.youtube.com/vi/p3sij8QzONQ/0.jpg)](https://www.youtube.com/watch?v=p3sij8QzONQ)
